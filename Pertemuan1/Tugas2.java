@@ -8,13 +8,13 @@ public class Tugas2 {
         int jumlah = sc.nextInt();
         String [] [] mataKuliah = new String[jumlah][4];
         for (int i = 0; i < jumlah; i++) {
-            System.out.print("Masukkan Nama Mata Kuliah: ");
+            System.out.print("Masukkan Nama Mata Kuliah     : ");
             mataKuliah[i][0] = sc.next();
-            System.out.print("Masukkan Ruang Mata Kuliah: ");
+            System.out.print("Masukkan Ruang Mata Kuliah    : ");
             mataKuliah[i][1] = sc.next();
-            System.out.print("Masukkan Hari Mata Kuliah: ");
+            System.out.print("Masukkan Hari Mata Kuliah     : ");
             mataKuliah[i][2] = sc.next();
-            System.out.print("Masukkan Jam Mata Kuliah: ");
+            System.out.print("Masukkan Jam Mata Kuliah      : ");
             mataKuliah[i][3] = sc.next();
             System.out.println("===============================");
             }
