@@ -14,11 +14,15 @@ class Mahasiswa21 {
     }
 
     void ubahKelas(String kelasBaru){
-    kelas = kelasBaru;
+        kelas = kelasBaru;
     }
 
     void updateIpk(Double ipkBaru){
-    ipk = ipkBaru;
+        if (ipkBaru < 0.0 || ipkBaru > 4.0) {
+            System.out.println("IPK tidak valid. Harus antara 0.0 dan 4.0.");
+            return;
+        }
+        ipk = ipkBaru;
     }
 
     String nilaiKinerja(){
